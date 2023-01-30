@@ -15,4 +15,6 @@ int main()
 
     printf("The closest integer having a whole number square root: %d\n", output_sqr_int); // display the value
     return 0;
+    
+    //this is a comment I am inserting to to commit changes to a branch
 }
