@@ -1,19 +1,21 @@
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+import React, { useState } from 'react';
+import './App.css';
+import { updateBalance } from './transaction.js';
+
+function App() {
+  const [balance, setBalance] = useState(0);
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>Current balance: <span id="balance">{balance}</span></p>
+        <form>
+          <input type="text" id="transaction" />
+          <button type="submit" onClick={updateBalance.bind(this, setBalance, balance)}>Submit</button>
+        </form>
+      </header>
+    </div>
+  );
+}
 
 export default App;
-//Getting both values of transaction and balance
-const balanceElement = document.getElementById("balance");
-const transactionElement = document.getElementById("transaction");
-//intiating balance to 0
-let balance = 0;
-//updating the balance after pressing the submit button
-  const form = document.querySelector("form");
-    form.addEventListener("submit", function(event) {
-      event.preventDefault();
-      const transaction = parseFloat(transactionElement.value);
-      balance += transaction;
-      balanceElement.textContent = balance;
-      //Updating the transaction box to be empty after the submision 
-      transactionElement.value = "";
-  });
