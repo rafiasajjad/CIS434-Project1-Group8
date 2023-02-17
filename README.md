@@ -19,30 +19,30 @@ git notes:
 
 To check in which git repo you're on or the changes in your local repo
 
-## `git status`
+`git status`
 
 make new branch from master
 
-##	`git checkout -b mybranchname`
+`git checkout -b mybranchname`
 
 make sure you push this way to make your repo public to git
 
-##	`git push --set-upstream master mybranchname`
+`git push --set-upstream master mybranchname`
 
 switching branches to master
 
-##	`git switch master`
+`git switch master`
 
 listing branching 
 
-##	`git branch`
+`git branch`
 
 commiting my changes to my branch
 
-##	`git add .`       this adds all ( . ) 
-##	`git commit -m ""`	"this is what i did in this changes"
-##	`git push` 	this will give an error, copy and paste the suggestions
+`git add .`      this adds all ( . ) 
+`git commit -m ""`	"this is what i did in this changes"
+`git push` 	this will give an error, copy and paste the suggestions
 
 pulling changes
 
-##	`git pull`
+`git pull`
