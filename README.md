@@ -15,7 +15,7 @@ And to start the application you can run:
 ### `npm start`
 
 
-git notes:
+## git notes:
 
 To check in which git repo you're on or the changes in your local repo
 
