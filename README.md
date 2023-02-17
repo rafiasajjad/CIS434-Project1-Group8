@@ -33,7 +33,7 @@ switching branches to master
 
 `git switch master`
 
-listing branching 
+list branches
 
 `git branch`
 
