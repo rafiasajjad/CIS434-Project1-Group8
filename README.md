@@ -46,4 +46,3 @@ commiting my changes to my branch
 pulling changes
 
 ##	`git pull`
-
