@@ -39,9 +39,9 @@ listing branching
 
 commiting my changes to my branch
 
-`git add .`      this adds all ( . ) 
-`git commit -m ""`	"this is what i did in this changes"
-`git push` 	this will give an error, copy and paste the suggestions
+`git add .`      this adds all ( . )__
+`git commit -m ""`	"this is what i did in this changes"__
+`git push` 	this will give an error, copy and paste the suggestions__
 
 pulling changes
 
