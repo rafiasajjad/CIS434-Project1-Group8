@@ -28,7 +28,7 @@ form.addEventListener("submit", function(event) {
 function displayTransactionHistory() {
   const transactionList = document.getElementById("transaction-list");
   transactionList.innerHTML = "";
-  transactionHistory.slice().reverse().forEach(transaction => {
+  transactionHistory.slice().reverse().forEach(transaction => { 
     const transactionItem = document.createElement("li");
     const transactionName = transaction.name ;
     const transactionAmount = transaction.amount.toFixed(2);
