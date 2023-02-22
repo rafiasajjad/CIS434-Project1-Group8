@@ -1,0 +1,103 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  margin-right: 1rem;
+  flex: 1;
+}
+input[type="number"] {
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  margin-right: 1rem;
+  flex: 1;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+/* Transaction history styles */
+.transaction-list {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #f7f7f7;
+}
+
+.transaction-list h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+th.positive {
+  color: green;
+}
+
+th.negative {
+  color: red;
+}
+button[id="clear-history"] {
+  background-color: #484b4e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.1rem 1rem;
+  font-size: 0.9rem;
+}

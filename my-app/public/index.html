@@ -1,24 +1,40 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Transaction Tracker</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Transaction Tracker</h1>
-      <div class="balance">
-        Current Balance: $<span id="balance">0</span>
-      </div>
-      <form>
-        <input type="text" id="transaction-name" placeholder="Enter transaction name">
-        <input type="text" id="transaction" placeholder="Enter transaction amount">
-        <input type="submit" value="Submit">
-      </form>
-      
-      <div class="transaction-history">
-        <h2>Transaction History</h2>
-        <ul id="transaction-list"></ul>
-      </div>
+<head>
+  <title>Transaction Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <div class="balance">
+      <p>Current Balance:</p>
+      <h2>$<span id="balance">0.00</span></h2>
     </div>
-    <script src="../src/App.js"></script>
-  </body>
+    <div class="transaction-form">
+      <form>
+        <label for="transaction-name">Transaction Name</label>
+        <input type="text" id="transaction-name" placeholder="Enter transaction name" required>
+        <label for="transaction-amount">Transaction Amount</label>
+        <input type="number" id="transaction-amount" placeholder="Enter transaction amount" required>
+        <button type="submit" style="cursor: pointer;">Add Transaction</button>
+      </form>
+    </div>
+    <div class="transaction-list">
+      <h3>Transaction History</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Transaction Name</th>
+            <th>Transaction Amount</th>
+          </tr>
+        </thead>
+        <tbody id="transaction-list">
+        </tbody>
+      </table>
+      <button id="clear-history" style="cursor: pointer;">Clear History</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
 </html>
