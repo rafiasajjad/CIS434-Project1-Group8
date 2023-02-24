@@ -1,5 +1,5 @@
 CIS 434 project 1 - Group 8
-Make sure you are in GR8-APP directory and run:
+
 
 npm install
 After, you can run:
