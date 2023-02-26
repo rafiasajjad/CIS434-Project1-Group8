@@ -7,6 +7,7 @@ const transactionNameElement = document.getElementById("transaction-name");
 let balance = 0;
 let transactionHistory = [];
 
+
 // Retrieve transaction history from local storage if available
 if (localStorage.getItem("transactionData")) {
   transactionHistory = JSON.parse(localStorage.getItem("transactionData"));
@@ -40,7 +41,11 @@ form.addEventListener("submit", function (event) {
 
 function displayTransactionHistory() {
   const transactionList = document.getElementById("transaction-list");
+  const incomeElement = document.getElementById("income-value");
+  const expenseElement = document.getElementById("expense-value");
   transactionList.innerHTML = "";
+  let income = 0;
+  let expense = 0;
   transactionHistory.slice().reverse().forEach((transaction) => {
     const row = document.createElement("tr");
     const nameCell = document.createElement("th");
@@ -51,13 +56,17 @@ function displayTransactionHistory() {
     amountCell.textContent = `$${transactionAmount}`;
     if (transactionAmount >= 0) {
       amountCell.classList.add("positive");
+      income += transaction.amount;
     } else {
       amountCell.classList.add("negative");
+      expense += transaction.amount;
     }
     row.appendChild(nameCell);
     row.appendChild(amountCell);
     transactionList.appendChild(row);
   });
+  incomeElement.textContent = `$${income.toFixed(2)}`;
+  expenseElement.textContent = `$${Math.abs(expense).toFixed(2)}`;
 }
 //Clearing the transaction history in local storage
 const clearHistoryButton = document.getElementById("clear-history");

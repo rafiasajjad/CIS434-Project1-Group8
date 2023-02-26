@@ -3,6 +3,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f2f2f2;
 }
 
 .container {
@@ -20,9 +21,13 @@ header {
 }
 
 h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 3rem;
+  color: #007bff;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #484b4e;
 }
 
 /* Form styles */
@@ -59,10 +64,43 @@ button[type="submit"] {
 
 /* Transaction history styles */
 .transaction-list {
+  margin-top: 2rem;
+  background-color: white;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 1rem;
-  background-color: #f7f7f7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.transaction-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
 }
 
 .transaction-list h3 {
@@ -97,7 +135,30 @@ button[id="clear-history"] {
   background-color: #484b4e;
   color: white;
   border: none;
-  border-radius: 6px;
-  padding: 0.1rem 1rem;
-  font-size: 0.9rem;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.income-expense-container {
+  display: flex;
+  justify-content:left;
+  gap: 10px;
+}
+
+#income-container, #expense-container {
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover,
+button#clear-history:hover {
+  opacity: 0.8;
 }
