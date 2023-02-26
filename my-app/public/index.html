@@ -6,12 +6,29 @@
 </head>
 <body>
   <div class="container">
-    <h1>Expense Tracker</h1>
+    <img src="CSU_Logo.jpg"width="60%"height="15%"></a>
+    <h1>Expense Tracker - Group 8</h1>
     <div class="balance">
-      <p>Current Balance:</p>
-      <h2>$<span id="balance">0.00</span></h2>
+      <h3>CURRENT BALANCE:</h3>
+      <h2>$ <span id="balance">0.00</span></h2>
     </div>
+  
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>INCOME</th>
+            <th>EXPENSES</th>
+          </tr>
+        </thead>
+        <tbody id="hi">
+        </tbody>
+      </table>
+
+    </div> 
     <div class="transaction-form">
+      <br><h3>ADD NEW TRANSACTION:</h3>
+      <h6>Enter a negative amount for expenses and a positive amount for income (default is positive)</h6>
       <form>
         <label for="transaction-name">Transaction Name</label>
         <input type="text" id="transaction-name" placeholder="Enter transaction name" required>
@@ -20,8 +37,9 @@
         <button type="submit" style="cursor: pointer;">Add Transaction</button>
       </form>
     </div>
+    <br>
     <div class="transaction-list">
-      <h3>Transaction History</h3>
+      <h3>HISTORY</h3>
       <table>
         <thead>
           <tr>
@@ -31,8 +49,14 @@
         </thead>
         <tbody id="transaction-list">
         </tbody>
-      </table>
+      </table> <br>
       <button id="clear-history" style="cursor: pointer;">Clear History</button>
+    </div>
+    <div>
+      <br><h3>Group Members:</h3>
+      <p>Hamza Srhiri<br> Shakeeb Rahman<br> Rafia Sajjad 
+        <br> Kenee Shepherd <br> Sheeka Shee
+      </p>
     </div>
   </div>
   <script src="app.js"></script>
