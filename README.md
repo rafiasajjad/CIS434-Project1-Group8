@@ -3,7 +3,7 @@
 The Expense Tracker is a web application developed using React Native as part of a project for CIS 434 Software Engineering at Cleveland State University. The application allows users to manage their income and expenses, which are displayed on the main page. The application also includes a transaction history where users can view past transactions, and clear transactions as needed.
 
 ## Screen:
-<img src="https://i.imgur.com/wVjZ2xa.png" alt="Alt Text" width="370" height="500">
+<img src="https://i.imgur.com/wVjZ2xa.png" alt="Alt Text" width="370" height="550">
 
 ## Features
 - Add income and expenses
