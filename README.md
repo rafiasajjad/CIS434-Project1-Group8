@@ -1,6 +1,17 @@
 ## CIS434-Project1-Group8 Expense Tracker
 
 The Expense Tracker is a web application developed using React Native as part of a project for CIS 434 Software Engineering at Cleveland State University. The application allows users to manage their income and expenses, which are displayed on the main page. The application also includes a transaction history where users can view past transactions, and clear transactions as needed.
+
+## Features
+- Add income and expenses
+- Show running balance as well as the total amount for each category - income and expenses
+- Save transaction data in local storage
+- Clear transactions
+- Alert message when users leave fields blank when clicking add transaction button
+- Alert for insufficient balance if expense is greater than the balance
+- If the sign is not specified in the Transation Amount field then it is considered as positive income by default. 
+- Simple and clean UI
+
 ##
 Before starting the project make sure to delete package-lock.json and the node_modules.
 
@@ -17,7 +28,7 @@ And to start the application you can run:
 ### `npm start`
 
 
-## git notes:
+## Git notes:
 
 To check in which git repo you're on or the changes in your local repo
 
