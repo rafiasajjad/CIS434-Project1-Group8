@@ -9,7 +9,7 @@ The Expense Tracker is a web application developed using React Native as part of
 - Clear transaction history
 - Alert message when users leave fields blank when clicking add transaction button
 - Alert for insufficient balance if expense is greater than the balance
-- If the sign is not specified in the transation amount field then it is considered as positive income by default. 
+- If the sign is not specified in the transation amount field then it is considered as positive income by default
 - Simple and clean UI
 
 ##
@@ -61,4 +61,4 @@ pulling changes
 `git pull`
 
 ## Contributors
-Hamza Srhiri (Hamzas61), Shakeeb Rahman (shakeebur), Rafia Sajjad (rafiasajjad), Kenee Shepherd (iamkenee), Sheeka Shee (SheekaShee).
+Hamza Srhiri (Hamzas61), Shakeeb Rahman (shakeebur), Rafia Sajjad (rafiasajjad), Kenee Shepherd (iamkenee), Sheeka Shee (SheekaShee)
