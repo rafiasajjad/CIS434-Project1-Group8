@@ -1,4 +1,6 @@
-# CIS434-Project1-Group8
+# CIS434-Project1-Group8- Expense Tracker
+
+The Expense Tracker is a web application developed using React Native as part of project for CIS 434 Software Engineering at Cleveland State University. The application allows users to manage their income and expenses, which are displayed on the main page. The application also includes a transaction history where users can view past transactions, and clear transactions as needed.
 
 Before starting the project make sure to delete package-lock.json and the node_modules.
 
@@ -46,3 +48,6 @@ commiting my changes to my branch
 pulling changes
 
 `git pull`
+
+## Contributors
+Shakeeb Rahman (shakeebur), Hamza Srhiri (Hamzas61), Rafia Sajjad (rafiasajjad), Kenee Shepherd (iamkenee), Sheeka Shee (SheekaShee).
