@@ -24,6 +24,7 @@ To code this project we used the following Software & Programming Languages
 - Node.js
 - HTML
 - CSS
+We used HTML and CSS for the front end development, and Javascript for the back-end. We used localStorage for our database.
 
 
 
@@ -76,6 +77,8 @@ pulling changes
 `git pull`
 
 ## Contributors
+
+Rafia Sajjad (rafiasajjad), Kenee Shepherd (iamkenee), Shakeeb Rahman (shakeebur), Hamza Srhiri (Hamzas61), Sheeka Shee (SheekaShee).
 Group Member Task Assignment
 - Kenee and Rafia = Building and Testing app, Front-End design, Initial State
 - Shakeeb = Add Transactions, Modifying Items 
