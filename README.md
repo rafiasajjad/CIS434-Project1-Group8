@@ -15,7 +15,19 @@ The Expense Tracker is a web application developed using React Native as part of
 - If the sign is not specified in the transation amount field then it is considered as positive income by default
 - Simple and clean UI
 
-##
+## Overview
+To code this project we used the following Software & Programming Languages
+- Visual Studio Code
+- GitHub
+- JavaScript
+- React
+- Node.js
+- HTML
+- CSS
+
+
+
+## Installation guide
 Before starting the project make sure to delete package-lock.json and the node_modules.
 
 Make sure you are in my-app directory and run:
@@ -64,4 +76,8 @@ pulling changes
 `git pull`
 
 ## Contributors
-Hamza Srhiri (Hamzas61), Shakeeb Rahman (shakeebur), Rafia Sajjad (rafiasajjad), Kenee Shepherd (iamkenee), Sheeka Shee (SheekaShee)
+Group Member Task Assignment
+- Kenee and Rafia = Building and Testing app, Front-End design, Initial State
+- Shakeeb = Add Transactions, Modifying Items 
+- Sheeka = Display Balance and Income 
+- Hamza = Deduct Expenses, Removing Items
