@@ -24,7 +24,7 @@ To code this project we used the following Software & Programming Languages
 - Node.js
 - HTML
 - CSS
-We used HTML and CSS for the front end development, and Javascript for the back-end. React and Node.js were used for our back-end as well as to host our website. We also used localStorage for our database.
+- Note: We used HTML and CSS for the front end development, and Javascript for the back-end. React and Node.js were used for our back-end as well as to host our website. We also used localStorage for our database.
 
 
 
