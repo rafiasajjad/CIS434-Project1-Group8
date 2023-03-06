@@ -27,8 +27,11 @@ To code this project we used the following Software & Programming Languages
 - Note: We used HTML and CSS for the front end development, and Javascript for the back-end. React and Node.js were used for our back-end as well as to host our website. We also used localStorage for our database.
 
 ## Technical Issues Faced:
-- Database configuration
-- Decimal point contraint in the input field
+- Database configuration 
+- Decimal point constraint in the input field
+## Solutions
+- After research and trying out different database ideas such as firebase, we ended up using localStorage.
+- We passed the input as text (String) in the index.html file and displayed an error message.
 
 
 ## Installation guide
