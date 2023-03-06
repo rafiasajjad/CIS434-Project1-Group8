@@ -1,8 +1,6 @@
 # Expense Tracker - Group 8
 
 Expense Tracker is a web app developed using React Native as part of a university project for a software egnineering course. The application allows users to enter expenses and income, which are displayed on the main page. The application also includes a transaction history tab where users can view past transactions, and clear transactions as needed.
-## Screen:
-<img src="https://imgur.com/a/ttmdh9y" alt="Alt Text" width="370" height="480">
 
 ## Contributors
 Rafia Sajjad (rafiasajjad), Kenee Shepherd (iamkenee), Shakeeb Rahman (shakeebur), Hamza Srhiri (Hamzas61), Sheeka Shee (SheekaShee).
