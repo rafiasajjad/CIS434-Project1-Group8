@@ -1,6 +1,6 @@
 ## CIS434-Project1-Group8 Expense Tracker
 
-The Expense Tracker is a web application developed using React Native as part of a project for CIS 434 Software Engineering at Cleveland State University. The application allows users to manage their income and expenses, which are displayed on the main page. The application also includes a transaction history where users can view past transactions, and clear transactions as needed.
+The Expense Tracker is a web application developed using ReactJS as part of a project for CIS 434 Software Engineering at Cleveland State University. The application allows users to manage their income and expenses, which are displayed on the main page. The application also includes a transaction history where users can view past transactions, and clear transactions as needed.
 
 ## Screen
 <img src="https://i.imgur.com/wVjZ2xa.png" alt="Alt Text" width="370" height="620">
@@ -13,18 +13,27 @@ The Expense Tracker is a web application developed using React Native as part of
 - Alert message when users leave fields blank when clicking add transaction button
 - Alert for insufficient balance if expense is greater than the balance
 - If the sign is not specified in the transation amount field then it is considered as positive income by default
-- Simple and clean UI
+- Simple and clean user interface
 
-## Overview
+## Software, tools, and programming languages 
 To code this project we used the following Software & Programming Languages
 - Visual Studio Code
 - GitHub
 - JavaScript
-- React
+- ReactJS
 - Node.js
 - HTML
 - CSS
+- Note: We used HTML and CSS for the front end development, and Javascript for the back-end. React and Node.js were used for our back-end as well as to host our website. We also used localStorage for our database.
 
+## Technical issues
+- Understanding ReactJS and how to deploy it using Node.js
+- Database configuration 
+- Decimal point constraint in the input field
+## Solutions
+- Followed some tutorials on how to deploy React with node.js, essentially node.js is used as a server for this application
+- After research and trying out different database ideas such as firebase, we ended up using localStorage.
+- We passed the input as text (String) in the index.html file and displayed an error message.
 
 
 ## Installation guide
@@ -76,6 +85,8 @@ pulling changes
 `git pull`
 
 ## Contributors
+
+Rafia Sajjad (rafiasajjad), Kenee Shepherd (iamkenee), Shakeeb Rahman (shakeebur), Hamza Srhiri (Hamzas61), Sheeka Shee (SheekaShee).
 Group Member Task Assignment
 - Kenee and Rafia = Building and Testing app, Front-End design, Initial State
 - Shakeeb = Add Transactions, Modifying Items 
