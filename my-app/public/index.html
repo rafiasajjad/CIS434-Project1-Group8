@@ -29,7 +29,9 @@
         <input type="text" id="transaction-name" placeholder="Enter transaction name" required>
         <br><label for="transaction-amount">Transaction Amount</label>
         <input type="text" id="transaction-amount" placeholder="Enter transaction amount" required pattern="-?\d+(\.\d+)?"
-        oninvalid="setCustomValidity('Please enter a valid amount!')">
+        oninvalid="setCustomValidity('Please enter a valid amount!')"
+        oninput="setCustomValidity('')">
+
         <button type="submit" class="submit-button" style="cursor: pointer;">Add Transaction</button>
       </form>
     </div>
