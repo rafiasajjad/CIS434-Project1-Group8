@@ -13,7 +13,7 @@ The Expense Tracker is a web application developed using ReactJS as part of a pr
 - Alert message when users leave fields blank when clicking add transaction button
 - Alert for insufficient balance if expense is greater than the balance
 - If the sign is not specified in the transation amount field then it is considered as positive income by default
-- Simple and clean UI
+- Simple and clean user interface
 
 ## Software, tools, and programming languages 
 To code this project we used the following Software & Programming Languages
