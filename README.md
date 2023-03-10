@@ -15,7 +15,7 @@ The Expense Tracker is a web application developed using ReactJS as part of a pr
 - If the sign is not specified in the transation amount field then it is considered as positive income by default
 - Simple and clean UI
 
-## Overview
+## Software, tools, and programming languages 
 To code this project we used the following Software & Programming Languages
 - Visual Studio Code
 - GitHub
@@ -26,7 +26,7 @@ To code this project we used the following Software & Programming Languages
 - CSS
 - Note: We used HTML and CSS for the front end development, and Javascript for the back-end. React and Node.js were used for our back-end as well as to host our website. We also used localStorage for our database.
 
-## Technical Issues Faced:
+## Technical issues faced
 - Database configuration 
 - Decimal point constraint in the input field
 ## Solutions
