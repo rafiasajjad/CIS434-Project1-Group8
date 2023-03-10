@@ -31,6 +31,7 @@ To code this project we used the following Software & Programming Languages
 - Database configuration 
 - Decimal point constraint in the input field
 ## Solutions
+- Followed some tutorials on how to deploy React with node.js, essentially node.js is used as a server for this application
 - After research and trying out different database ideas such as firebase, we ended up using localStorage.
 - We passed the input as text (String) in the index.html file and displayed an error message.
 
